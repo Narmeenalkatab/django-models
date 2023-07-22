@@ -1,10 +1,13 @@
 {% extends 'base.html'%}
 
 {% block content%}
+<div>
     <h1>Snack Details</h1>
-    <h2>Name : {{Snack.name}}</h2>
-    <h2>purchaser : {{Snack.purchaser}}</h2>
-    <h2>Rank : {{Snack.rank}}</h2>
-    <h2>Desc : {{Snack.description}}</h2>
+    <h2>Name : {{snack.name}}</h2>
+    <h2>purchaser : {{snack.purchaser}}</h2>
+    <h2>Desc : {{snack.description}}</h2>
+</div>
+
+<a href="/">Go Back</a>
 
 {% endblock %}
